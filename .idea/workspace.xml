@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="132569c2-0577-4a32-b8b0-9d3c29ce7a24" name="Default Changelist" comment="" />
+    <list default="true" id="132569c2-0577-4a32-b8b0-9d3c29ce7a24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Autenticacao.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/style_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/righta.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/images/righta2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/footer_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/header_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/js_template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao01.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao02.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao03.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao04.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao05.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao06.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao07.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao08.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao09.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao10.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao11.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao12.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao13.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao14.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao15.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao16.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao17.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao18.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao19.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao20.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao21.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao22.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao23.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao24.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao25.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao26.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao27.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao28.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao29.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao30.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao31.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao32.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao33.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao34.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao35.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao36.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao37.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao38.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/questoes/questao39.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/AutenticacaoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/AutenticacaoController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/QuestoesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/QuestoesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login/login.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login/login.tpl.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +75,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZFymnqURkMoVKiqPPtTOzHuixG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/images" />
+      <recent name="$PROJECT_DIR$/templates/css" />
+      <recent name="$PROJECT_DIR$/templates/questoes" />
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,11 +122,22 @@
       <option name="presentableId" value="Default" />
       <updated>1584449297678</updated>
       <workItem from="1584449300464" duration="1964000" />
-      <workItem from="1584629511104" duration="1589000" />
+      <workItem from="1584629511104" duration="7831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

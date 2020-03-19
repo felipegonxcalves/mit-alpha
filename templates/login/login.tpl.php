@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="<?php echo __DIR__ . '../../public/css/style_login.css'; ?>"/>
+    <link rel="stylesheet" href="./../css/style_login.css"/>
 
 <!--    <link rel="stylesheet" href="{{ asset('css/checkbox.css') }}"/>-->
 <!--    <link rel="stylesheet" type="text/css" href="checkbox.css">-->
@@ -12,7 +12,7 @@
 
 <body>
 <div class="questao" id="q0" style="width: 85vw; height: 430;">
-    <form action="" method="post">
+    <form action="/validate-login" method="post">
         <table id="form" class="fundoGradient">
             <tbody>
             <tr>

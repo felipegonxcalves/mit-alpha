@@ -8,6 +8,16 @@ use SON\Controller;
 
 class QuestoesController extends Controller
 {
+    public function renderQuestion($numQuestion)
+    {
+        $this->render(['data' => null], "questoes/{$numQuestion}");
+    }
+
+    public function renderAfterLogin()
+    {
+        $this->renderQuestion($_GET['numQuestion']);
+    }
+
     public function storeQuestoesIndex()
     {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {

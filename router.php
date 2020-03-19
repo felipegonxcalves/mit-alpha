@@ -22,5 +22,19 @@ $router['/login'] = [
     'action' => 'pageRenderLogin'
 ];
 
+$router['/validate-login'] = [
+    'class' => App\Controllers\AutenticacaoController::class,
+    'action' => 'validateLogin'
+];
+
+$router['/questoes'] = [
+    'class' => App\Controllers\QuestoesController::class,
+    'action' => 'renderQuestion'
+];
+$router['/render-after-login'] = [
+    'class' => App\Controllers\QuestoesController::class,
+    'action' => 'renderAfterLogin'
+];
+
 
 return $router;
