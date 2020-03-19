@@ -1,102 +1,103 @@
 <?php
     require_once __DIR__ . '/header_template.php';
 ?>
-
     <form id="form1" action="/store-question" method="post">
 
-        <input type="hidden" value="1" name="nro_questao">
-        <input type="hidden" value="questao02" name="prox_questao">
-        <div class="questao" id="q1" style="width: 78vw; height: 430">
-            <div class="numero">01</div>
-            <div class="pergunta">Marque os cinco sentimentos ou situações que fazem
-                você se sentir mais motivado no trabalho:</div><br>
-            <div class="alternativas fundoGradient" style="width: 270px;float: left;">
+        <input type="hidden" value="3" name="nro_questao">
+        <input type="hidden" value="questao04" name="prox_questao">
+
+        <div class="questao" id="q3" style="width: 85vw;height: 430;">
+            <div class="numero">03</div>
+            <div class="pergunta"> Prefiro aprender através de...(Marque cinco alternativas)
+            </div><br>
+            <div class="alternativas fundoGradient" style="width: 280px;float: left;">
                 <label class="linha">
-                    <div class="letra">a</div> Trabalhar sozinho <input type="checkbox" name="check_per_1[]" value="a" checked="checked">
+                    <div class="letra"> a </div> Materiais visuais<input type="checkbox" name="check_per_1[]" value="a">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> b </div> Expressar minhas ideias <input type="checkbox" name="check_per_1[]" value="b">
+                    <div class="letra"> b </div> Demonstrações<input type="checkbox" name="check_per_1[]" value="b">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> c </div> Estar no controle da situação <input type="checkbox" name="check_per_1[]" value="c">
+                    <div class="letra"> c </div> Debates estruturados pelo instrutor<input type="checkbox" name="check_per_1[]" value="c">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> d </div> Provocar mudanças <input type="checkbox" name="check_per_1[]" value="d">
+                    <div class="letra"> d </div> Palestras formais<input type="checkbox" name="check_per_1[]" value="d">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> e </div> Ouvir e falar <input type="checkbox" name="check_per_1[]" value="e">
+                    <div class="letra"> e </div> Experiências<input type="checkbox" name="check_per_1[]" value="e">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> f </div> Criar os recursos visuais <input type="checkbox" name="check_per_1[]" value="f">
+                    <div class="letra"> f </div> Utilização de histórias e música<input type="checkbox" name="check_per_1[]" value="f">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> g </div> Prestar atenção aos detalhes <input type="checkbox" name="check_per_1[]" value="g">
+                    <div class="letra"> g </div> Exercícios que usam a intuição<input type="checkbox" name="check_per_1[]" value="g">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> h </div> Aspectos técnicos <input type="checkbox" name="check_per_1[]" value="h">
+                    <div class="letra"> h </div> Debate em grupo<input type="checkbox" name="check_per_1[]" value="h">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> i </div> Trabalhar com pessoas <input type="checkbox" name="check_per_1[]" value="i">
+                    <div class="letra"> i </div> Exercícios de análise <input type="checkbox" name="check_per_1[]" value="i">
                     <span class="checkmark"></span>
                 </label>
                 <label class="linha">
-                    <div class="letra"> j </div> Usar números, estatísticas <input type="checkbox" name="check_per_1[]" value="j">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
-            <div class="alternativas fundoGradient" style="width: 320px;float: right;">
-                <label class="linha">
-                    <div class="letra"> k </div> Oportunidades para fazer experiências <input type="checkbox" name="check_per_1[]" value="k">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> l </div> Planejar <input type="checkbox" name="check_per_1[]" value="l">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> m </div> Trabalhar com comunicação <input type="checkbox" name="check_per_1[]" value="m">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> n </div> Fazer algo funcionar <input type="checkbox" name="check_per_1[]" value="n">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> o </div> Arriscar-me <input type="checkbox" name="check_per_1[]" value="o">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> p </div> Analisar dados <input type="checkbox" name="check_per_1[]" value="p">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> q </div> Lidar com o futuro <input type="checkbox" name="check_per_1[]" value="q">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> r </div> Produzir e organizar <input type="checkbox" name="check_per_1[]" value="r">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> s </div> Fazer parte de uma equipe <input type="checkbox" name="check_per_1[]" value="s">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="linha">
-                    <div class="letra"> t </div> Fazer as coisas sempre no prazo previsto <input type="checkbox" name="check_per_1[]" value="t">
+                    <div class="letra"> j </div> Atividades sequenciais bem planejadas <input type="checkbox" name="check_per_1[]" value="j">
                     <span class="checkmark"></span>
                 </label>
             </div>
-            <div class="cinza proximo" id="p1">
-                <a id="btn-quest1" style="cursor: pointer;">
-                    <span class="azul">Próximo </span>
+            <div class="alternativas fundoGradient" style="width: 360px;float: right;">
+                <label class="linha">
+                    <div class="letra"> k </div> Análise de número, dados e fatos<input type="checkbox" name="check_per_1[]" value="k">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> l </div> Exemplos com metáforas<input type="checkbox" name="check_per_1[]" value="l">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> m </div> Atividades passo a passo de reforço de conteúdo<input type="checkbox" name="check_per_1[]" value="m">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> n </div> Leitura de livros-textos<input type="checkbox" name="check_per_1[]" value="n">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> o </div> Discussões de casos voltados para as pessoas<input type="checkbox" name="check_per_1[]" value="o">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> p </div> Discussão de casos voltados para os números e fatos<input type="checkbox" name="check_per_1[]" value="p">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> q </div> Métodos tradicionais comprovados<input type="checkbox" name="check_per_1[]" value="q">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> r </div> Agenda bem flexível<input type="checkbox" name="check_per_1[]" value="r">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> s </div> Agenda estruturada com antecedência<input type="checkbox" name="check_per_1[]" value="s">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="linha">
+                    <div class="letra"> t </div> Trabalhos bem estruturados<input type="checkbox" name="check_per_1[]" value="t">
+                    <span class="checkmark"></span>
+                </label>
+
+            </div>
+            <div class="proximo" id="p3">
+                <a>
+                    <span class="cinza">Próximo </span>
                     <img class="arrow" src="./../images/righta.svg">
                     <img class="arrow" src="./../images/righta.svg">
                 </a>
@@ -104,20 +105,19 @@
         </div>
     </form>
 
-
     <script>
-        limitarCheckboxes(1, 5);
+        limitarCheckboxes(3,5);
 
-        document.getElementById('p1').onclick = () => {
-            if (validateCheckboxs(1, 5)){
+        document.getElementById('p3').onclick = () => {
+            if (validateCheckboxs(3, 5)){
                 document.getElementById('form1').submit();
             }
         }
 
         function limitarCheckboxes (questao, limite){
 
-            let urlImage1 = './../images/righta.svg';
-            let urlImage2 = './../images/righta2.svg';
+            let urlImage1 = '/../images/righta.svg';
+            let urlImage2 = '/../images/righta2.svg';
 
             let Checkboxes = $( "#q" + questao + " input[type='checkbox']");
             Checkboxes.click(function()
@@ -162,6 +162,9 @@
 <?php
     require_once __DIR__ . '/footer_template.php';
 ?>
+
+
+
 
 
 

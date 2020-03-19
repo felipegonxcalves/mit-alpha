@@ -10,6 +10,8 @@ use SON\Model;
 
 class AutenticacaoController extends Controller
 {
+    protected $questoes;
+
     public function __construct(Autenticacao $model)
     {
         $this->model = $model;
@@ -28,12 +30,12 @@ class AutenticacaoController extends Controller
 
             if ($user['stsativo'] == null){
                 $this->render(['data' => null], 'login/login');
+                exit;
             }
             else{
 
-                session_start();
-                $_SESSION['data_user'] = $user;
-                header('location: /render-after-login?numQuestion=questao01');
+                $_SESSION['DATA_USER'] = $user;
+                header("Location: /render-after-login");
                 exit;
             }
 

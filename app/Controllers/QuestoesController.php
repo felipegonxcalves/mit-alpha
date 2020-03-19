@@ -4,10 +4,22 @@
 namespace App\Controllers;
 
 
+use App\Models\Questao;
 use SON\Controller;
+use SON\Model;
 
 class QuestoesController extends Controller
 {
+    protected $questaoModel;
+    public function __construct(Questao $questao)
+    {
+        if (!isset($_SESSION['DATA_USER'])){
+            header("Location: /login");exit;
+        }
+
+        $this->questaoModel = $questao;
+    }
+
     public function renderQuestion($numQuestion)
     {
         $this->render(['data' => null], "questoes/{$numQuestion}");
@@ -15,7 +27,8 @@ class QuestoesController extends Controller
 
     public function renderAfterLogin()
     {
-        $this->renderQuestion($_GET['numQuestion']);
+        $this->renderQuestion("questao01");
+//        self::renderQuestion($numQuestion);
     }
 
     public function storeQuestoesIndex()
@@ -23,17 +36,21 @@ class QuestoesController extends Controller
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             // chamo o model e salvo no banco
             // redirectiono para a view
+            $dataRequest = $_POST;
+
+            $ide_entrevistado = $_SESSION['DATA_USER']['ideentrevistado'];
+
+            foreach ($dataRequest['check_per_1'] as $resposta){
+                $data_insert = [
+                    'ideentrevistado' => $ide_entrevistado,
+                    'nro_questao' => $dataRequest['nro_questao'],
+                    'desresposta' => $resposta
+
+                ];
+                $this->questaoModel->insertQuestion($data_insert);
+            }
+
+            $this->renderQuestion($dataRequest['prox_questao']);
         }
-//        $ide_entrevistado = \Session::get('logado');
-//
-//        foreach ($request->check_per_1 as $resposta){
-//            \DB::select('call spinsresposta2(?, ?, ?)',[
-//                $ide_entrevistado['ide_ntrevistado'][0]->ideentrevistado,
-//                $request->nro_questao,
-//                $resposta
-//            ]);
-//        }
-//
-//        return \redirect()->route($request->prox_questao);
     }
 }
